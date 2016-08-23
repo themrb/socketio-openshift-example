@@ -4,13 +4,9 @@ OpenShift websocket support demystified for application developers. This example
 
 Let's play ping-pong.
 
-## Run in OpenShift
+### Fork details
 
-Once you have registered to OpenShift and loaded all the necessary tools to your computer, create and start a new app directly from this repo:
-
-`rhc app create wsexample nodejs-0.10 --from-code https://github.com/nodebooks/socketio-openshift-example.git`
-
-Wait a moment and open your OpenShift app in your browser.
+This project was forked from [socketio-openshift-example](https://github.com/nodebooks/socketio-openshift-example) and updated to work on Node.js (Latest) gears on Openshift. This was for my personal investigation, but others may find it useful.
 
 ## Run locally
 

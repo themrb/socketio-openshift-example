@@ -4,7 +4,9 @@ var config = require('./config');
 // Express.js stuff
 var express = require('express');
 var app = require('express')();
-var server = require('http').Server(app);
+var server = require('http', {
+  transports: ['websocket']
+}).Server(app);
 
 // Websockets with socket.io
 var io = require('socket.io')(server);
